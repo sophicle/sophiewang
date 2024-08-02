@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://use.typekit.net/cum1bey.css");
+
+@layer base {
+  body {
+    font-family: "rig-sans", sans-serif;
+    background-color: theme("colors.white");
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: 300;
+  }
+  html[data-theme="dark"] body {
+    background-color: theme("colors.darkBackground");
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+}
+
+@layer components {
+  .font-orange-variable {
+    font-family: "bd-orange-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+  }
+}
