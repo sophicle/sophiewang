@@ -3,9 +3,11 @@ import "../globals.css";
 const ScrollSection = ({ title, content }) => {
   return (
     <div
-      className={`h-3/4 min-h-80  w-3/4 md:w-full flex flex-col items-center justify-center`}
+      className={`h-3/4 min-h-80 ] w-3/4 md:w-full flex flex-col items-center justify-center`}
     >
-      <div className={`h-3/4 w-3/4 rounded-xl p-8 bg-poople min-w-80`}>
+      <div
+        className={`h-3/4  min-h-[400px] w-3/4 rounded-xl p-8 bg-poople min-w-80`}
+      >
         {title === "relevant courses" ? (
           <div className="flex justify-between items-center">
             <div className="text-2xl font-extrabold">{title}</div>

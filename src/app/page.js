@@ -5,7 +5,7 @@ import "./globals.css";
 
 const Home = () => {
   return (
-    <div className="h-full flex flex-col md:flex-row pt-40">
+    <div className="h-full min-h-[1000px] flex flex-col md:flex-row pt-40">
       <div className="flex flex-col items-center justify-center w-full lg:w-1/2">
         <img
           src="./sophie.svg"
