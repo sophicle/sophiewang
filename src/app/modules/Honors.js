@@ -32,7 +32,7 @@ const Honors = () => {
         <div key={index} className="flex justify-between items-center">
           <div>
             <div className="font-semibold">{honor.title}</div>
-            <div className="text-sm">{honor.description}</div>
+            <div className="text-xs md:text-sm">{honor.description}</div>
           </div>
           <div className="text-right text-sm ml-4">
             {honor.year.split(", ").map((year, i) => (

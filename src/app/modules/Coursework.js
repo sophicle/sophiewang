@@ -16,7 +16,7 @@ const courses = [
 
 const Coursework = () => {
   return (
-    <div className="pt-4 text-md text-white">
+    <div className="pt-4 text-sm md:text-md text-white">
       {courses.map((course, index) => (
         <div key={index} className="mb-0.5  lg:mb-1">
           <strong className="font-bold">{course.number}</strong> {course.title}
