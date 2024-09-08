@@ -5,13 +5,15 @@ import useIsVisible from "./useIsVisible";
 import About from "./About";
 import Honors from "./Honors";
 import DotNavigation from "./DotNavigation";
-import Coursework from "./Coursework";
+import PastCourses from "./PastCourses";
+import CurrentCourses from "./CurrentCourses";
 import "../globals.css";
 const ScrollContainer = () => {
   const sections = [
     { title: "about me", content: <About /> },
     { title: "honors", content: <Honors /> },
-    { title: "relevant courses", content: <Coursework /> },
+    { title: "current courses", content: <CurrentCourses /> },
+    { title: "past courses", content: <PastCourses /> },
   ];
 
   const refs = sections.map(() => useRef(null));

@@ -8,11 +8,11 @@ const ScrollSection = ({ title, content }) => {
       <div
         className={`h-3/4  min-h-[400px] w-3/4 rounded-xl p-8 bg-poople min-w-80`}
       >
-        {title === "relevant courses" ? (
+        {title === "past courses" ? (
           <div className="flex justify-between items-center">
             <div className="text-2xl font-extrabold">{title}</div>
 
-            <div className="text-right text-sm ml-4">5.0/5.0</div>
+            <div className="text-right text-md ml-4">5.0/5.0</div>
           </div>
         ) : (
           <div className="text-2xl font-extrabold">{title}</div>

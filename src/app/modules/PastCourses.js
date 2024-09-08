@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 const courses = [
   { number: "6.390", title: "Fundamentals of Programming" },
   { number: "6.121", title: "Intro to Algorithms" },
